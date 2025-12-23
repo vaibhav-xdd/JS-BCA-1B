@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="myButton">TAP HERE!</button>
+
+    <script>
+        // Selecting the button element
+        const button = document.getElementById('myButton');
+
+        // Alert message on click
+        button.addEventListener('click', function () {
+            alert('Color and font changed!');
+        });
+
+        // Function to change background color
+        function changeBg() {
+            document.body.style.backgroundColor = 'red'; // green → red
+        }
+
+        // Function to change font style
+        function changeFont() {
+            button.style.fontFamily = 'Arial';
+            button.style.fontSize = '24px';
+            button.style.color = 'white';
+        }
+
+        // Adding event listeners
+        button.addEventListener('click', changeBg);
+        button.addEventListener('click', changeFont);
+
+    </script>
+</body>
+
+</html>
