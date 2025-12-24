@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Program 2 - Links, Images and Lists</title>
+</head>
+<body>
+
+    <h1>HTML Links, Images and Lists</h1>
+
+    <!-- Link Example -->
+    <h2>HTML Link</h2>
+    <p>
+        Click the link below to visit Google:
+    </p>
+    <a href="https://www.google.com" target="_blank">
+        Visit Google
+    </a>
+
+    <hr>
+
+    <!-- Image Example -->
+    <h2>HTML Image</h2>
+    <img src="https://via.placeholder.com/200"
+         alt="Sample Image"
+         width="200"
+         height="200">
+
+    <hr>
+
+    <!-- Ordered List -->
+    <h2>Ordered List</h2>
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+
+    <!-- Unordered List -->
+    <h2>Unordered List</h2>
+    <ul>
+        <li>Python</li>
+        <li>Java</li>
+        <li>C</li>
+    </ul>
+
+    <!-- Nested List -->
+    <h2>Nested List</h2>
+    <ul>
+        <li>Frontend Development
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+        </li>
+        <li>Backend Development
+            <ul>
+                <li>Python</li>
+                <li>Java</li>
+            </ul>
+        </li>
+    </ul>
+
+</body>
+</html>
