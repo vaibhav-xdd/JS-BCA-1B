@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Program 3 - Table with Merged Cells</title>
+</head>
+<body>
+
+    <h2 align="center">Student Marksheet</h2>
+
+    <table border="1" align="center" cellpadding="10" cellspacing="0">
+        <caption><b>Academic Performance Table</b></caption>
+
+        <tr>
+            <th rowspan="2">Student Name</th>
+            <th colspan="2">Marks Obtained</th>
+        </tr>
+
+        <tr>
+            <th>Mathematics</th>
+            <th>Computer Science</th>
+        </tr>
+
+        <tr align="center">
+            <td>Rahul</td>
+            <td>85</td>
+            <td>90</td>
+        </tr>
+
+        <tr align="center">
+            <td>Amit</td>
+            <td>78</td>
+            <td>88</td>
+        </tr>
+
+        <tr align="center">
+            <td>Suman</td>
+            <td>92</td>
+            <td>95</td>
+        </tr>
+    </table>
+
+</body>
+</html>
