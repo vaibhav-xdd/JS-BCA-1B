@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <h2>Function and Scope Demo</h2>
+    <p id="demo"></p>
+
+    <script>
+        // User-defined function
+        function greetUser(name) {
+            // Scope demonstration
+            var globalVar = "I am var (Function Scope)";
+            let blockLet = "I am let (Block Scope)";
+            const blockConst = "I am const (Constant)";
+
+            return "Hello " + name + "! <br>" + globalVar + "<br>" + blockLet;
+        }
+
+        // Function invoke (call) karna
+        document.getElementById("demo").innerHTML = greetUser("Student");
+    </script>
+
+</body>
+</html>
