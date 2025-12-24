@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Program 5 - Semantic HTML</title>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>My Website</h1>
+        <p>Welcome to my semantic HTML page</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#">Home</a> |
+        <a href="#">About</a> |
+        <a href="#">Contact</a>
+    </nav>
+
+    <hr>
+
+    <!-- Main Content Section -->
+    <section>
+
+        <!-- Article -->
+        <article>
+            <h2>Main Article</h2>
+            <p>
+                This article demonstrates the use of HTML5 semantic elements
+                such as header, nav, section, article, aside, and footer.
+            </p>
+        </article>
+
+        <!-- Aside Content -->
+        <aside>
+            <h3>Side Information</h3>
+            <p>
+                This content is placed inside the aside tag.
+            </p>
+        </aside>
+
+    </section>
+
+    <hr>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2025 Rungta International Skill University</p>
+    </footer>
+
+</body>
+</html>
