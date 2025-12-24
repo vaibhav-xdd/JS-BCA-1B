@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Program 9 - Responsive Web Page</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: lightblue;
+            text-align: center;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            background-color: white;
+            border: 2px solid black;
+        }
+
+        h1 {
+            color: darkblue;
+        }
+
+        /* Media Query for Mobile Devices */
+        @media screen and (max-width: 600px) {
+            body {
+                background-color: lightcoral;
+            }
+
+            .container {
+                width: 95%;
+            }
+
+            h1 {
+                font-size: 22px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Responsive Web Page</h1>
+        <p>
+            This web page changes its layout and background color
+            according to the screen size.
+        </p>
+        <p>
+            Resize the browser window to see the effect.
+        </p>
+    </div>
+
+</body>
+</html>
