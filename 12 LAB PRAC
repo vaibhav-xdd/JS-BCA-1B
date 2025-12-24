@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <h2>Loops and Conditions Demo</h2>
+    <p id="output"></p>
+
+    <script>
+        let text = "";
+
+        // 1. Conditional Statement (if-else)
+        let num = 10;
+        if (num > 0) {
+            text += "<b>Condition:</b> " + num + " is Positive.<br><br>";
+        }
+
+        // 2. For Loop (1 to 5)
+        text += "<b>For Loop:</b> ";
+        for (let i = 1; i <= 5; i++) {
+            text += i + " ";
+        }
+
+        // 3. While Loop (1 to 5)
+        text += "<br><b>While Loop:</b> ";
+        let j = 1;
+        while (j <= 5) {
+            text += j + " ";
+            j++;
+        }
+
+        // 4. Do...While Loop (1 to 5)
+        text += "<br><b>Do-While Loop:</b> ";
+        let k = 1;
+        do {
+            text += k + " ";
+            k++;
+        } while (k <= 5);
+
+        document.getElementById("output").innerHTML = text;
+    </script>
+
+</body>
+</html>
