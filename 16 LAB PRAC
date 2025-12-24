@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .box { width: 200px; height: 100px; background: yellow; border: 2px solid black; }
+        .highlight { background: orange; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div id="myBox" class="box">This is a Box</div><br>
+    
+    <button onclick="toggleVisibility()">Show/Hide</button>
+    <button onclick="toggleStyle()">Toggle CSS Class</button>
+
+    <script>
+        function toggleVisibility() {
+            let x = document.getElementById("myBox");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+
+        function toggleStyle() {
+            document.getElementById("myBox").classList.toggle("highlight");
+        }
+    </script>
+</body>
+</html>
