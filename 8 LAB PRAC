@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Program 8 - CSS Selectors</title>
+
+    <style>
+        /* Element Selector */
+        p {
+            font-size: 18px;
+        }
+
+        /* ID Selector */
+        #idSelector {
+            color: red;
+            font-weight: bold;
+        }
+
+        /* Class Selector */
+        .classSelector {
+            color: blue;
+            font-style: italic;
+        }
+
+        /* Group Selector */
+        h1, h2 {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>CSS Selectors Example</h1>
+    <h2>Demonstration Page</h2>
+
+    <p>
+        This paragraph is styled using an element selector.
+    </p>
+
+    <p id="idSelector">
+        This paragraph uses ID selector.
+    </p>
+
+    <p class="classSelector">
+        This paragraph uses Class selector.
+    </p>
+
+</body>
+</html>
