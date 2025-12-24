@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Program 4 - HTML Form</title>
+</head>
+<body>
+
+    <h1>Student Registration Form</h1>
+
+    <form action="#" method="post">
+
+        <!-- Text Field -->
+        <label>Student Name:</label><br>
+        <input type="text" name="name" placeholder="Enter your name">
+        <br><br>
+
+        <!-- Password Field -->
+        <label>Password:</label><br>
+        <input type="password" name="password">
+        <br><br>
+
+        <!-- Radio Buttons -->
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <br><br>
+
+        <!-- Checkbox -->
+        <label>Hobbies:</label><br>
+        <input type="checkbox" name="hobby" value="Reading"> Reading
+        <input type="checkbox" name="hobby" value="Sports"> Sports
+        <input type="checkbox" name="hobby" value="Music"> Music
+        <br><br>
+
+        <!-- Dropdown -->
+        <label>City:</label><br>
+        <select name="city">
+            <option>Raipur</option>
+            <option>Bhilai</option>
+            <option>Durg</option>
+        </select>
+        <br><br>
+
+        <!-- Textarea -->
+        <label>Address:</label><br>
+        <textarea rows="4" cols="30"></textarea>
+        <br><br>
+
+        <!-- Buttons -->
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>
