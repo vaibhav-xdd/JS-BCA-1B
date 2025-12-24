@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Program 1 - Basic HTML</title>
+</head>
+<body>
+<h1>Welcome to HTML</h1>
+<h2>Text Formatting Example</h2>
+
+
+<p>This is a normal paragraph.</p>
+<p><b>Bold Text</b></p>
+<p><i>Italic Text</i></p>
+<p><u>Underlined Text</u></p>
+<p><mark>Highlighted Text</mark></p>
+<p><small>Small Text</small></p>
+</body>
+</html>
