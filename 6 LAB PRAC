@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Program 6 - Types of CSS</title>
+
+    <!-- Internal CSS -->
+    <style>
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+        }
+
+        p {
+            color: blue;
+            font-size: 18px;
+        }
+
+        .internalBox {
+            border: 2px solid black;
+            padding: 10px;
+            width: 300px;
+            background-color: white;
+        }
+    </style>
+
+    <!-- External CSS (Linked but optional for practical) -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 style="color:red; text-align:center;">
+        Inline CSS Example
+    </h1>
+
+    <p>
+        This paragraph is styled using Internal CSS.
+    </p>
+
+    <div class="internalBox">
+        This div is styled using Internal CSS.
+    </div>
+
+    <p style="color:green; font-weight:bold;">
+        This paragraph uses Inline CSS.
+    </p>
+
+    <hr>
+
+    <p>
+        External CSS is linked using the link tag in the head section.
+    </p>
+
+</body>
+</html>
