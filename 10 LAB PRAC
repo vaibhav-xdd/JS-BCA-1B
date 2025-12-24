@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Program 10 - Div and Span</title>
+
+    <style>
+        .divBox {
+            background-color: lightyellow;
+            border: 2px solid black;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+
+        .spanText {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>DIV and SPAN Example</h1>
+
+    <!-- DIV Example -->
+    <div class="divBox">
+        This is a DIV element.
+        <br>
+        DIV is a block-level element used to group content.
+    </div>
+
+    <!-- SPAN Example -->
+    <p>
+        This paragraph contains a 
+        <span class="spanText">SPAN element</span>
+        which is an inline element used to style specific text.
+    </p>
+
+</body>
+</html>
