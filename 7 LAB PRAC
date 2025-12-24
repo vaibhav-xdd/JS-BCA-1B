@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Program 7 - CSS Box Model</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .box {
+            width: 300px;
+            background-color: lightblue;
+
+            /* Box Model Properties */
+            border: 5px solid black;
+            padding: 20px;
+            margin: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>CSS Box Model Example</h1>
+
+    <div class="box">
+        This box demonstrates the CSS Box Model.
+        <br><br>
+        It includes margin, border, padding and content.
+    </div>
+
+    <p>
+        The space outside the border is margin,
+        the space between border and content is padding.
+    </p>
+
+</body>
+</html>
