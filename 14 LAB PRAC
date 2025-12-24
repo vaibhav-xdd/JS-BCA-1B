@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h2>Login Form (Validation)</h2>
+    <form id="myForm" onsubmit="return validateForm()">
+        Name: <input type="text" id="name" oninput="checkLength()"> 
+        <span id="msg" style="color:red"></span> <br><br>
+        
+        Email: <input type="email" id="email" required><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+
+    <script>
+        function checkLength() {
+            let name = document.getElementById("name").value;
+            if(name.length < 3) {
+                document.getElementById("msg").innerText = "Too short!";
+            } else {
+                document.getElementById("msg").innerText = "OK";
+            }
+        }
+
+        function validateForm() {
+            let name = document.getElementById("name").value;
+            if (name == "") {
+                alert("Name must be filled out");
+                return false;
+            }
+            alert("Form submitted successfully!");
+            return true;
+        }
+    </script>
+</body>
+</html>
